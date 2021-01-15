@@ -5,7 +5,7 @@ Solutions to Advent of Code 2015 puzzles.
 pip install pytest
 pip install pygame
 ```
-### Day 6
+### Day 6 - Probably a Fire Hazard
 Here is a visualisation of the solution to part 1.
 
 ![alt text](https://github.com/johntelforduk/advent-of-code-2015/blob/main/06-probably-a-fire-hazard/screenshots/day6_1_final.jpg "Probably a Fire Hazard part 1.")
