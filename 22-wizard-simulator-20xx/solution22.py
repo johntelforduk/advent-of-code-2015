@@ -4,6 +4,7 @@
 from copy import copy
 
 TEST = True
+DIFFICULTY = 'Hard'
 
 
 class Game(object):
@@ -129,6 +130,14 @@ class Game(object):
             print('\n-- Player turn --')
             self.print_player()
             self.print_boss()
+
+        # "On the next run through the game, you increase the difficulty to hard.
+        # At the start of each player turn (before any other effects apply), you lose 1 hit point.
+        # If this brings you to or below 0 hit points, you lose."
+        if DIFFICULTY == 'Hard':
+            self.player_hit_points -= 1
+            self.check_winner()
+
         self.every_turn()
         if attack():                # If true, the attack succeeded...
             self.check_winner()     # So check if there is a winner yet.
