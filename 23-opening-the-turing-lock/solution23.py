@@ -1,4 +1,4 @@
-# Solution to day 19 of AOC 2015, Opening the Turing Lock
+# Solution to day 23 of AOC 2015, Opening the Turing Lock
 # https://adventofcode.com/2015/day/23
 
 
