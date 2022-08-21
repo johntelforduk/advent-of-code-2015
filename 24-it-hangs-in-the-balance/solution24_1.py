@@ -1,4 +1,4 @@
-# Solution to day 24 of AOC 2015, It Hangs in the Balance
+# Solution to part 1 of day 24 of AOC 2015, It Hangs in the Balance
 # https://adventofcode.com/2015/day/24
 
 from itertools import combinations
